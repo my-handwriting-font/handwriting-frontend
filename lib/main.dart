@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:handwriting_front/screens/input_screen.dart';
+import 'package:handwriting_front/screens/home_screen.dart';
 
 void main() {
   runApp(const HandwritingApp());
@@ -14,7 +14,7 @@ class HandwritingApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Handwriting App',
       theme: ThemeData(primarySwatch: Colors.blue),
-      home: InputScreen(),
+      home: const HomeScreen(),
     );
   }
-}  
+}
